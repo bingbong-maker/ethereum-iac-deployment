@@ -22,3 +22,14 @@ services:
     ports:
     - "30303:30303"
     - "8545:8545" 
+  validator2: 
+    image: ethereum/client-go:stable
+    command: >
+      --networkid 1234 --datadir /data --port 30304
+      --http --http.addr 0.0.0.0 --http.port 8546
+      --http.api eth,net,web3,personal
+    volumes:
+    - ./validator2:/data
+    ports:
+    - "30304:30304"
+    - "8546:8546"
