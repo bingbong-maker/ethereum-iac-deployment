@@ -33,3 +33,15 @@ services:
     ports:
     - "30304:30304"
     - "8546:8546"
+  rpcnode:
+    image: ethereum/client-go:stable
+    command: >
+      --networkid 1234 --datadir /data --port 30305
+      --http -http.addr 0.0.0.0 --http.port 8547
+      --http.api eth,net,web3,personal
+      --syncmode full
+    volumes:
+    - ./rpcnode:/data
+    ports:
+    - "30305:30305"
+    - "8547:8547"

@@ -4,3 +4,19 @@
 10:03:08.195983 version@stat F·[] S·0B[] Sc·[]
 10:03:08.201183 db@janitor F·2 G·0
 10:03:08.201237 db@open done T·5.929424ms
+10:59:24.319519 memdb@flush N·56191 S·3MiB
+10:59:24.360443 memdb@flush created L0@3 N·56191 S·1MiB "loc..seq,v2":"version,v1"
+10:59:24.362497 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+10:59:24.366004 memdb@flush committed F·1 T·43.813222ms
+10:59:24.385263 journal@remove removed @1
+12:51:41.205400 memdb@flush N·56809 S·3MiB
+12:51:41.251689 memdb@flush created L0@5 N·56809 S·1MiB "n:\x00..ail,v92483":"n:\xff..ong,v72454"
+12:51:41.252287 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+12:51:41.257078 memdb@flush committed F·1 T·50.202899ms
+12:51:41.291307 journal@remove removed @2
+12:51:45.205800 table@compaction L0·2 -> L1·0 S·2MiB Q·113039
+12:51:45.347152 table@build created L1@6 N·60266 S·1MiB "loc..seq,v2":"version,v1"
+12:51:45.347324 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:51:45.352732 table@compaction committed F-1 S-693KiB Ke·0 D·52734 T·146.773133ms
+12:51:45.353514 table@remove removed @5
+12:51:45.355416 table@remove removed @3

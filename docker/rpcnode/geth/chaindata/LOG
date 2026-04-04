@@ -1,0 +1,27 @@
+=============== Apr 4, 2026 (SAST) ===============
+12:10:50.416124 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:10:50.427412 db@open opening
+12:10:50.430656 version@stat F·[] S·0B[] Sc·[]
+12:10:50.436500 db@janitor F·2 G·0
+12:10:50.436523 db@open done T·9.081818ms
+12:10:50.443114 db@close closing
+12:10:50.443166 db@close done T·51.317µs
+=============== Apr 4, 2026 (UTC) ===============
+10:16:28.044647 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:16:28.048124 version@stat F·[] S·0B[] Sc·[]
+10:16:28.048204 db@open opening
+10:16:28.048288 journal@recovery F·1
+10:16:28.055065 journal@recovery recovering @1
+10:16:28.063032 memdb@flush created L0@2 N·15 S·966B "Hq\x11..\xb4\x85\xe2,v8":"\xf8\x8d\xfe..\xa0\x7f\x82,v3"
+10:16:28.064184 version@stat F·[1] S·966B[966B] Sc·[0.25]
+10:16:28.148469 db@janitor F·3 G·0
+10:16:28.148619 db@open done T·100.352843ms
+=============== Apr 4, 2026 (UTC) ===============
+12:46:57.763377 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:46:57.768580 version@stat F·[1] S·966B[966B] Sc·[0.25]
+12:46:57.768695 db@open opening
+12:46:57.768840 journal@recovery F·1
+12:46:57.776928 journal@recovery recovering @3
+12:46:57.777931 version@stat F·[1] S·966B[966B] Sc·[0.25]
+12:46:57.869233 db@janitor F·3 G·0
+12:46:57.869796 db@open done T·101.044041ms
